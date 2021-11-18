@@ -1,0 +1,35 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    width: 100%;
+    margin: 0;
+    font-size: 18px;
+}
+
+#status, #name-of-objects, #start{
+    font-size: 18px;
+}
+
+.footer{
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    bottom: 0;
+    position: fixed;
+}
+
+canvas{
+    border: 2px white solid;
+    border-radius: 10px;
+    animation-name: uniform;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes uniform{
+    from{box-shadow: 5px 5px 5px red;}
+    to{box-shadow: 5px 5px 5px yellow;}
+}
