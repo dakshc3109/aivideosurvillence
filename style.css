@@ -22,6 +22,7 @@ body{
 }
 
 canvas{
+    margin-top: 70px;
     border: 2px white solid;
     border-radius: 10px;
     animation-name: uniform;
